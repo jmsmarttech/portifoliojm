@@ -18,8 +18,8 @@ body{
     background-color: #1c1c1c;
     width: 360px;
     weight: 750px;
-    box-shadow: 10px 5px 25px #00BFFF,
-    -10px -5px 25px #00BFFF;
+    box-shadow: 10px 5px 100px #000000,
+    -10px -5px 100px #1c1c1c;
     border-radius: 50px;
     overflow: hidden;
 }
