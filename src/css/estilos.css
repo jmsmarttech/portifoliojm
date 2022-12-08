@@ -134,9 +134,9 @@ body{
 .redes-sociais li a{    
     width: 300px;
     display: block;
-    box-shadow: 2px 2px 5px #000000,
-    -2px -2px 5px #1c1c1c;
-    border-radius: 30px;
+    box-shadow: 2px 2px 5px white,
+    -2px -2px 5px black;
+    border-radius: 40px;
     color: #ffffff;
     text-align: center;
     padding: 15px;
