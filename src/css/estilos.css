@@ -127,15 +127,15 @@ body{
     flex-direction: column;
     gap: 11px;
     align-items: center;
-    max-height: 180px;
+    max-height: 150px;
     overflow-y: auto;
 }
 
 .redes-sociais li a{    
     width: 300px;
     display: block;
-    box-shadow: 4px 4px 10px #000000,
-    -4px -4px 10px #000000;
+    box-shadow: 4px 5px 10px #000000,
+    -4px -5px 10px #000000;
     border-radius: 40px;
     color: #ffffff;
     text-align: center;
@@ -149,13 +149,13 @@ body{
 }
 
 .redes-sociais .instagram{
-    background-color: #8B008B;
+    background-color: #1c1c1c;
 }
 
 .redes-sociais .linkedin{
-    background-color: #00008B;
+    background-color: #1c1c1c;
 }
 
 .redes-sociais .github{
-    background-color: Grey;
+    background-color: #1c1c1c;
 }
