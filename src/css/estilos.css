@@ -82,7 +82,7 @@ body{
 }
 
 .cartao .abas .aba:hover{
-    background-color: #00bfff;
+    background-color: #000000;
 }
 
 .informacoes-abas .informacao{
@@ -127,7 +127,7 @@ body{
     flex-direction: column;
     gap: 11px;
     align-items: center;
-    max-height: 150px;
+    max-height: 180px;
     overflow-y: auto;
 }
 
