@@ -134,8 +134,8 @@ body{
 .redes-sociais li a{    
     width: 300px;
     display: block;
-    box-shadow: 2px 2px 5px white,
-    -2px -2px 5px black;
+    box-shadow: 4px 4px 10px #ffffff,
+    -4px -4px 10px #000000;
     border-radius: 40px;
     color: #ffffff;
     text-align: center;
@@ -157,10 +157,5 @@ body{
 }
 
 .redes-sociais .github{
-    background-color: black;
-    
-}
-
-.redes-sociais .whatsapp{
-    background-color: #32CD32;
+    background-color: Grey;
 }
