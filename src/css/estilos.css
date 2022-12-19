@@ -132,7 +132,8 @@ body{
 }
 
 .redes-sociais li a{    
-    width: 300px;
+    width: 400px;
+    padding-top: 20px;
     display: block;
     box-shadow: 4px 5px 10px white,
     -4px -5px 10px black;
