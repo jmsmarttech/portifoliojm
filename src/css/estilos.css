@@ -16,7 +16,7 @@ body{
 
 .cartao{
     background-color: #1c1c1c;
-    width: 720px;
+    width: 370px;
     weight: 1080px;
     box-shadow: 10px 5px 100px #000000,
     -10px -5px 100px #1c1c1c;
@@ -125,7 +125,7 @@ body{
 .redes-sociais{
     display: flex;
     flex-direction: column;
-    gap: 11px;
+    gap: 25px;
     align-items: center;
     max-height: 180px;
     overflow-y: auto;
