@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #1c1c1c;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px; 
+}
+
+.cartao{
+    background-color: #1c1c1c;
+    width: 360px;
+    weight: 750px;
+    box-shadow: 10px 5px 100px #000000,
+    -10px -5px 100px #1c1c1c;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.cartao .minhas-informacoes{
+    background-color: #1c1c1c;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.cartao .minhas-informacoes img{
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 70px black,
+    0px 0px 0px #a7aaaf,
+    10px 8px 30px #a7aaaf,
+    -10px -11px 25px #a7aaaf;    
+}
+
+.cartao .minhas-informacoes .nome{
+    font-size: 26px;
+}
+
+.cartao .minhas-informacoes .cargo{
+    font-size: 20px;
+    color: white;
+}
+
+.cartao .conteudo{
+    margin-top: 18px;
+}
+
+.cartao .abas{
+    display: flex;
+}
+
+.cartao .abas .aba{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.cartao .abas img{
+    width: 30px;
+}
+
+.cartao .abas .aba.selecionado{
+    background-color: #1c1c1c;
+}
+
+.cartao .informacoes-abas{
+    background-color: #1c1c1c;
+}
+
+.cartao .abas .aba:hover{
+    background-color: #00bfff;
+}
+
+.informacoes-abas .informacao{
+    min-height: 260px;
+    padding: 15px;
+    display: none;
+}
+
+.informacoes-abas .informacao.selecionado{
+    display: block;
+}
+
+.informacoes-abas .sub-titulo{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.informacoes-abas .descricao{
+    background-color: #1c1c1c;
+    font-size: 22px;
+    text-align: center;
+    max-height: 180px;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+.informacoes-abas .descricao azul{
+    color: #00BFFF;
+}
+
+.informacoes-abas .descricao branco{
+    color: white;
+}
+.informacoes-abas .descricao verde{
+    color: lime;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    align-items: center;
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+.redes-sociais li a{    
+    width: 300px;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.redes-sociais li a:hover{
+    opacity: 0.8;
+}
+
+.redes-sociais .instagram{
+    background-color: #8B008B;
+}
+
+.redes-sociais .linkedin{
+    background-color: #00008B;
+}
+
+.redes-sociais .github{
+    background-color: #2F4F4F;
+}
+
+.redes-sociais .whatsapp{
+    background-color: #32CD32;
+}
