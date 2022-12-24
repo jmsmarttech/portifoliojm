@@ -135,12 +135,12 @@ body{
     width: 250px;
     padding-top: 10px;
     display: block;
-    box-shadow: 3px 3px 5px black,
-    -3px -3px 5px black;
-    border-radius: 40px;
+    box-shadow: 3px 3px black,
+    -3px -3px white;
+    border-radius: 20px;
     color: #ffffff;
     text-align: center;
-    padding: 8px;
+    padding: 10px;
     font-size: 20px;
     transition: opacity 0.3s ease-in-out;
 }
@@ -155,7 +155,6 @@ body{
 
 .redes-sociais .linkedin{
     background-color: #1c1c1c;
-    padding-top: 4px;
 }
 
 .redes-sociais .github{
