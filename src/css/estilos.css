@@ -155,7 +155,7 @@ body{
 
 .redes-sociais .linkedin{
     background-color: #1c1c1c;
-    gap: 8px;
+    padding-top: 4px;
 }
 
 .redes-sociais .github{
