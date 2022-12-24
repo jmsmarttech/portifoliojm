@@ -137,10 +137,10 @@ body{
     display: block;
     box-shadow: 3px 3px 10px black,
     -3px -3px 10px white;
-    border-radius: 30px;
+    border-radius: 40px;
     color: #ffffff;
     text-align: center;
-    padding: 18px;
+    padding: 10px;
     font-size: 20px;
     transition: opacity 0.3s ease-in-out;
 }
