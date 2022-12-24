@@ -135,12 +135,12 @@ body{
     width: 250px;
     padding-top: 10px;
     display: block;
-    box-shadow: 3px 3px black,
-    -3px -3px white;
-    border-radius: 20px;
+    box-shadow: 3px 3px 10px black,
+    -3px -3px 10px white;
+    border-radius: 40px;
     color: #ffffff;
     text-align: center;
-    padding: 10px;
+    padding: 18px;
     font-size: 20px;
     transition: opacity 0.3s ease-in-out;
 }
